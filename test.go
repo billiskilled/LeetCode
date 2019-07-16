@@ -14,8 +14,8 @@ func main() {
 }
 */
 
+/**
 // test 切片某些特性
-
 func main() {
 	slice := make([]int, 3)
 	slice[0] = 3
@@ -36,4 +36,12 @@ func main() {
 	fmt.Printf("%v\n", slice)
 	slice = slice[1:3]
 	fmt.Printf("%v\n", slice)
+}
+*/
+
+// test字符串某些特性
+
+func main() {
+	var a = "ab"
+	fmt.Println(a[1])
 }
