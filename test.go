@@ -39,9 +39,17 @@ func main() {
 }
 */
 
+/**
 // test字符串某些特性
-
 func main() {
 	var a = "ab"
 	fmt.Println(a[1])
+}
+*/
+
+// test 切片默认值
+func main() {
+	a := make([]int, 100)
+	// a[0] = 1
+	fmt.Println(a[0] == 0)
 }
