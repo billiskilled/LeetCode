@@ -47,9 +47,20 @@ func main() {
 }
 */
 
+/**
 // test 切片默认值
 func main() {
 	a := make([]int, 100)
 	// a[0] = 1
 	fmt.Println(a[0] == 0)
+
+	fmt.Printf("%x", int(1))
+}
+*/
+
+var a int
+
+func main() {
+	a = 2
+	fmt.Println(a)
 }
