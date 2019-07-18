@@ -58,9 +58,23 @@ func main() {
 }
 */
 
+/**
+// 测试全局变量
 var a int
 
 func main() {
 	a = 2
 	fmt.Println(a)
+}
+*/
+
+func main() {
+	type buc struct {
+		a int
+		b int
+	}
+
+	var b []buc
+	b = make([]buc, 1)
+	fmt.Println(b[0])
 }
