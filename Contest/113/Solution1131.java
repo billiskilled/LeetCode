@@ -1,8 +1,9 @@
-class Solution {
+class Solution1131 {
     public String largestTimeFromDigits(int[] A) {
         int[] result = new int[4];
 
         for (int i = 0; i < 4; i++) {
+            double[] a = new double[0];
             if (i == 0) {
                 int maxNum = -1;
                 boolean isValidNum = false;
@@ -43,5 +44,6 @@ class Solution {
                 }
             }
         }
+        return null;
     }
 }

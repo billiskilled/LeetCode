@@ -1,6 +1,6 @@
 import java.util.*;
 
-class Solution {
+class Solution113 {
     public static String largestTimeFromDigits(int[] A) {
         int[] result = new int[4];
 
